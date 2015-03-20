@@ -12,3 +12,20 @@ The most common word length is 9 characters long and comes in at 14K. This is an
 ## First implementation
 
 The first implementation will therefore concentrate on creating a hash map of the dictionary words keyed by a sorted list of its characters. The value at the key will be all the dictionary anagrams of that list of characters.
+
+### Python implementation
+
+	% python py/word_anagrams.py -h
+	usage: Finds all anagrams in dictionary for supplied word. [-h]
+	                                                           [--dictionary-file 	DICTIONARY_FILE]
+	                                                           [--words WORDS [WORDS ...]]
+	
+	optional arguments:
+	  -h, --help            show this help message and exit
+	  --dictionary-file DICTIONARY_FILE, -d DICTIONARY_FILE
+    	                    File containing dictionary words, one word per line.
+ 	 --words WORDS [WORDS ...], -w WORDS [WORDS ...]
+ 	                        Source words for anagrams search
+
+
+

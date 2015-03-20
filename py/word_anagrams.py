@@ -39,7 +39,7 @@ if __name__ == '__main__':
 	parser.add_argument('--dictionary-file', '-d',
 		                help="File containing dictionary words, one word per line.")
 	parser.add_argument('--words', '-w', nargs='+',
-		                help="Source word for anagram search")
+		                help="Source words for anagrams search")
 
 	args = parser.parse_args()
 
